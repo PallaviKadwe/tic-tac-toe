@@ -1,0 +1,89 @@
+body {
+    background: wheat;
+}
+
+.container {
+    width: 310px;
+    margin: 20px auto;
+    height: 310px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: black;
+    border-color: green solid 1px;
+    padding : 10px;
+}
+
+.btnStyle{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background: #F3F3F3;
+}
+
+.one {
+    grid-row: 1;
+    grid-column: 1 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.two {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.three {
+    grid-row: 1;
+    grid-column: 3 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.four {
+    grid-row: 2;
+    grid-column: 1 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.five {
+    grid-row: 2;
+    grid-column: 2/ span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.six {
+    grid-row: 2;
+    grid-column: 3 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.seven {
+    grid-row: 3;
+    grid-column: 1 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.eight {
+    grid-row: 3;
+    grid-column: 2 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
+
+.nine {
+    grid-row: 3;
+    grid-column: 3 / span 1;
+    background-color: wheat;
+    pointer-events: auto;
+}
